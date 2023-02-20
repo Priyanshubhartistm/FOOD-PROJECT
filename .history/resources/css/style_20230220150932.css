@@ -333,7 +333,6 @@ blockquote {
     font-style: italic;
     line-height: 145%;
     margin-top: 40px;
-    position: relative;
 }
 
 cite {
@@ -346,15 +345,5 @@ cite img {
     height: 45px;
     border-radius: 50%;
     margin-right: 10px;
-    vertical-align: middle;
-}
-
-blockquote::before{
-    content:'\201c';
-    font-size: 500%;
-    display: block;
-    position: absolute;
-    top: 0;
-    left:-3px;
-
+    vaer
 }

@@ -333,7 +333,6 @@ blockquote {
     font-style: italic;
     line-height: 145%;
     margin-top: 40px;
-    position: relative;
 }
 
 cite {
@@ -355,6 +354,5 @@ blockquote::before{
     display: block;
     position: absolute;
     top: 0;
-    left:-3px;
-
+    left:
 }
