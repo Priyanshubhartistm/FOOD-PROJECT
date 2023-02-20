@@ -406,7 +406,5 @@ blockquote::before {
 }
 
 .plan-box div:first-child{
-    background-color:#fcfcfc;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    background-color:#
 }

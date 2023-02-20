@@ -396,17 +396,4 @@ blockquote::before {
     list-style: none;
 }
 
-.plan-box ul li{
-    padding: 5px 0;
-}
-
-.plan-box div:last-child{
-    border:0;
-    text-align: center;
-}
-
-.plan-box div:first-child{
-    background-color:#fcfcfc;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
+.plan

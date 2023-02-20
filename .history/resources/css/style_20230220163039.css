@@ -402,11 +402,5 @@ blockquote::before {
 
 .plan-box div:last-child{
     border:0;
-    text-align: center;
-}
-
-.plan-box div:first-child{
-    background-color:#fcfcfc;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    
 }
