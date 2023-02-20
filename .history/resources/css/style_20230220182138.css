@@ -47,8 +47,7 @@ h1 {
 }
 
 .btn:link,
-.btn:visited,
-input[type=submit] {
+.btn:visited {
     display: inline-block;
     padding: 10px 30px;
     text-decoration: none;
@@ -59,8 +58,7 @@ input[type=submit] {
 }
 
 .btn-full:link,
-.btn-full:visited,
-input[type=submit] {
+.btn-full:visited {
     background-color: #e67e22;
     color: #fff;
     border: 1px solid #e67e22;
@@ -74,8 +72,7 @@ input[type=submit] {
 }
 
 .btn:hover,
-.btn:active,
-input[type=submit] {
+.btn:active {
     background-color: #cf6d17;
 }
 
@@ -87,8 +84,7 @@ input[type=submit] {
 }
 
 .btn-full:hover,
-.btn-full:active,
-input[type=submit] {
+.btn-full:active {
     border: 1px solid #cf6d17;
 }
 
@@ -434,6 +430,6 @@ textarea {
     height: 100%;
 }
 
-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
+input[type=checkbox]{
+    margin: 10px 5px ;
 }
