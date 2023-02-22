@@ -26,10 +26,10 @@
             <div class="row">
                 <img class="logo" src="resources/img/logo.png" alt="log-img">
                 <ul class="main-nav">
-                    <li><a href="#feature">Food delivery</a></li>
-                    <li><a href="#hiw">How it works</a></li>
-                    <li><a href="#city">Our cities</a></li>
-                    <li><a href="#signup">Sign-up</a></li>
+                    <li><a href="#">Food delivery</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Our cities</a></li>
+                    <li><a href="#">Sign-up</a></li>
 
                 </ul>
             </div>
@@ -43,7 +43,8 @@
         </div>
     </header>
     <!-- Features Section -->
-    <section class="section-features" id="feature">
+    <section class="section-features" id="feat
+    ">
         <div class="row">
             <h2>Get food fast &mdash; Not fast food</h2>
             <p class="long-copy">
@@ -146,7 +147,7 @@
     </section>
 
     <!-- How it works Section -->
-    <section class="section-steps" id="hiw">
+    <section class="section-steps">
 
         <div class="row">
             <h2> How it works &mdash; Simple as 1,2,3 </h2>
@@ -181,7 +182,7 @@
     </section>
 
     <!-- City Section -->
-    <section class="section-cities" id="city">
+    <section class="section-cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
@@ -279,7 +280,7 @@
     </section>
 
     <!-- Sign-up Section -->
-    <section class="section-plans" id="plans">
+    <section class="section-plans">
         <div class="row">
             <h2>Start eating healthy today</h2>
         </div>
@@ -367,7 +368,7 @@
 
     <!-- Contact Form Section -->
 
-    <section class="section-form" id="signup">
+    <section class="section-form">
         <div class="row">
             <h2> We're happy to hear from you</h2>
         </div>
@@ -475,33 +476,6 @@
     <!-- Jquery CDN Link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
-    <!-- Scrolling effect -->
-    <script>
-        $(document).ready(function () {
-            // Add smooth scrolling to all links
-            $("a").on('click', function (event) {
-
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function () {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
-    </script>
 </body>
 
 </html>
